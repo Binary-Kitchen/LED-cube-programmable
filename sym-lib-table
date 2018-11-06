@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name LED-Cube_MK3)(type Legacy)(uri /home/timo/Dokumente/LED-Cube_MK3/LED-Cube_MK3.lib)(options "")(descr ""))
+  (lib (name LED-Cube_MK3)(type Legacy)(uri ${KIPRJMOD}/LED-Cube_MK3.lib)(options "")(descr ""))
 )
