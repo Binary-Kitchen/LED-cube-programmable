@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 322)
     (zones 0)
     (modules 32)
@@ -69,7 +69,7 @@
     (grid_origin 20 65)
     (visible_elements 7FFFF7FF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -92,9 +92,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -1885,6 +1885,9 @@
     )
   )
 
+  (gr_text binary-kitchen.de (at 28.509 64.1745) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_text "CC-BY-SA 4.0" (at 40.5105 18.2005) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1)) (justify left))
   )
@@ -2226,7 +2229,7 @@
   (segment (start 35.411422 37.97493) (end 50.727092 53.2906) (width 0.2286) (layer B.Cu) (net 71))
   (segment (start 34.4018 29.821) (end 35.411422 30.830622) (width 0.2286) (layer B.Cu) (net 71))
 
-  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer F.Cu) (tstamp 5BF20511) (hatch edge 0.508)
     (connect_pads (clearance 0.1524))
     (min_thickness 0.1524)
     (fill yes (arc_segments 32) (thermal_gap 0.2286) (thermal_bridge_width 0.508))
@@ -3496,7 +3499,7 @@
       )
     )
   )
-  (zone (net 16) (net_name +5V) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 16) (net_name +5V) (layer B.Cu) (tstamp 5BF2050E) (hatch edge 0.508)
     (connect_pads (clearance 0.1524))
     (min_thickness 0.1524)
     (fill yes (arc_segments 32) (thermal_gap 0.2286) (thermal_bridge_width 0.508))
