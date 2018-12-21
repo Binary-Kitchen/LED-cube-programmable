@@ -6,7 +6,15 @@ A 4x4x4 LED Cube which can be programmed with an arduino nano. A harder solderin
 <img src="images/led-cube02.png" width=500px alt="Nibble++ front">
 
 ## Bill of Material
-TBD
+| Item                     | Qty | Footprint          |
+|--------------------------|-----|--------------------|
+| Arduino Nano v3          | 1   | ----               |
+| Ceramic Capacitor 100 nF | 1   | 0805               |
+| Mosfet 2N7002            | 4   | SOT23              |
+| Resistor 1 kOhm          | 4   |  0805              |
+| Resistor 52 Ohm          | 16  | 0805               |
+| Shiftregister 74HC595    | 2   | SOIC-16 3.9x9.9 mm |
+| 5mm LED                  | 64  | ----               |
 
 ## Manual
 TBD
