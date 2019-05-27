@@ -1,5 +1,5 @@
 # Programmable LED Cube
-A 4x4x4 LED Cube which can be programmed with an arduino nano. A harder soldering challange combining SMD soldering with very fragile LEDs.
+A 4x4x4 LED Cube which can be programmed with an arduino nano. A harder soldering challenge combining SMD soldering with very fragile LEDs.
 
 <img src="images/led-cube01.png" width=500px alt="Nibble++ front">
 
